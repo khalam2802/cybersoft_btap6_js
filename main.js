@@ -8,7 +8,7 @@ function timSoN() {
     tong += i;
     i++;
   }
-  document.getElementById("ketQua").innerHTML = "Số nguyên dương nhỏ nhất sao cho 1 + 2 + ... + n > 10000 là " + (i - 1);
+  document.getElementById("ketQua").innerHTML = "Số nguyên dương nhỏ nhất là: " + (i - 1);
 }
 
 
