@@ -1,14 +1,16 @@
 // bài 1
 
-function timSoNguyenDuong(){
-    var soNguyenDuong=document.querySelector("#txtSoNguyenDuong").value*1;
-   var sum = 0;
-for(var i = 1; sum < soNguyenDuong; i ++){
-    sum += i
+function timSoN() {
+  
+  var tong = 0;
+  var i = 1;
+  while (tong <= 10000) {
+    tong += i;
+    i++;
+  }
+  document.getElementById("ketQua").innerHTML = "Số nguyên dương nhỏ nhất sao cho 1 + 2 + ... + n > 10000 là " + (i - 1);
 }
 
-document.getElementById("kqBai1").innerHTML=(i);
-}
 
 //bài 2
 
